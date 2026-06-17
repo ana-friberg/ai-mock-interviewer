@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --version)",
+      "PowerShell(pnpm --version)",
+      "PowerShell(npm install -g pnpm)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); pnpm --version)",
+      "PowerShell(npm root -g)",
+      "PowerShell(& \"C:\\\\Users\\\\anaf\\\\AppData\\\\Roaming\\\\npm\\\\pnpm.cmd\" --version)",
+      "PowerShell(Set-Location \"c:\\\\Project Github\\\\Ana\\\\ai-mock-interviewer\"; & \"C:\\\\Users\\\\anaf\\\\AppData\\\\Roaming\\\\npm\\\\pnpm.cmd\" recursive list 2>&1; Write-Host \"Exit: $LASTEXITCODE\")",
+      "PowerShell(Set-Location \"c:\\\\Project Github\\\\Ana\\\\ai-mock-interviewer\"; & \"C:\\\\Users\\\\anaf\\\\AppData\\\\Roaming\\\\npm\\\\pnpm.cmd\" install 2>&1; Write-Host \"Exit: $LASTEXITCODE\")",
+      "Bash(Get-Content \"c:\\\\Project Github\\\\Ana\\\\ai-mock-interviewer\\\\apps\\\\web\\\\AI Mock Interviewer.html\")",
+      "Bash(Select-Object -Last 30)",
+      "Bash(pnpm install *)",
+      "Bash(npm --version)",
+      "Bash(ls \"/c/Program Files/nodejs/\" | grep pnpm; ls \"/c/Users/anaf/AppData/Roaming/npm/\" 2>/dev/null | grep pnpm; ls \"/c/Users/anaf/.npm/\" 2>/dev/null | grep pnpm)",
+      "Read(//c/Program Files/nodejs//**)",
+      "Read(//c/Users/anaf/AppData/Roaming/npm//**)",
+      "Read(//c/Users/anaf/**)",
+      "Bash(\"/c/Program Files/nodejs/pnpm\" install)",
+      "Bash(\"/c/Users/anaf/AppData/Roaming/npm/pnpm\" install *)",
+      "Bash(\"/c/Users/anaf/AppData/Roaming/npm/pnpm\" dev *)",
+      "Bash(jobs -l)",
+      "Bash(kill %1)",
+      "Bash(pnpm --filter @ai-mock-interviewer/api add hono @hono/node-server)",
+      "Bash(mkdir -p \"C:/Project Github/Ana/ai-mock-interviewer/apps/api/src\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Project Github\\Ana\\ai-mock-interviewer\\apps\\api",
+      "C:\\Project Github\\Ana\\ai-mock-interviewer\\apps\\api"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@ai-mock-interviewer/api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@ai-mock-interviewer/shared": "workspace:*",
+    "@hono/node-server": "^2.0.4",
+    "hono": "^4.12.25"
+  },
+  "devDependencies": {
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}

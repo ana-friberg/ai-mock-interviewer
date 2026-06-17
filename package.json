@@ -1,0 +1,15 @@
+{
+  "name": "ai-mock-interviewer",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build",
+    "dev:api": "pnpm --filter @ai-mock-interviewer/api dev",
+    "dev:web": "pnpm --filter @ai-mock-interviewer/web dev"
+  }
+}
