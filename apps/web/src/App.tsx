@@ -67,8 +67,8 @@ export function App() {
 
         <Routes>
           <Route path="/" element={<SetupPage />} />
-          <Route path="/interview" element={<InterviewPage />} />
-          <Route path="/report" element={<ReportPage />} />
+          <Route path="/interview/:sessionId" element={<InterviewPage />} />
+          <Route path="/report/:sessionId" element={<ReportPage />} />
           <Route path="/history" element={<HistoryPage />} />
         </Routes>
       </div>
