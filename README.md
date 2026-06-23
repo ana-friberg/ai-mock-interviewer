@@ -4,7 +4,7 @@ An AI-powered technical mock interview tool built with Claude. Configure a sessi
 
 ## Demo
 
-![App demo](public/ai-mock-interviewer.gif)
+![App demo](public/ai-mock-interviewer_30.gif)
 
 ## Status
 
