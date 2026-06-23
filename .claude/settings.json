@@ -46,11 +46,16 @@
       "PowerShell([Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); Write-Host \"---\"; Test-Path \"C:\\\\Users\\\\anaf\\\\AppData\\\\Roaming\\\\npm\\\\pnpm.cmd\")",
       "PowerShell(Get-Command pnpm -ErrorAction SilentlyContinue)",
       "PowerShell(npx --yes pnpm --version 2>&1)",
-      "Read(//c/Project Github/Ana/ai-mock-interviewer/node_modules/.pnpm/**)"
+      "Read(//c/Project Github/Ana/ai-mock-interviewer/node_modules/.pnpm/**)",
+      "Bash(New-Item -ItemType File -Path \"c:\\\\Project Github\\\\Ana\\\\ai-mock-interviewer\\\\README.md\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(Write-Output \"created\")",
+      "Bash(touch \"c:/Project Github/Ana/ai-mock-interviewer/README.md\")"
     ],
     "additionalDirectories": [
       "c:\\Project Github\\Ana\\ai-mock-interviewer\\apps\\api",
-      "C:\\Project Github\\Ana\\ai-mock-interviewer\\apps\\api"
+      "C:\\Project Github\\Ana\\ai-mock-interviewer\\apps\\api",
+      "c:\\Project Github\\Ana\\ai-mock-interviewer"
     ]
   }
 }
